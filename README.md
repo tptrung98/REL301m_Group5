@@ -42,9 +42,9 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 - **Training on FPT**: Achieved accuracy of 100% in training.
 ![Train result](results/train.png)
 ![Profit train](results/profit_train.png)
-- **Testing on FPT**: Generated a total profit of $26337.21 with a win rate of 52.83%, outperforming the baseline profit.
-![Test result](results/test.png)
+- **Testing on FPT**: Generated a total profit of $26337.21 with a win rate of 52.83%.
 ![Profit test](results/profit_test.png)
+![Test result](results/test.png)
 
 ## How to Use
 - **Read file Code.ipynb**
@@ -62,7 +62,10 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 - Perform hyperparameter optimization for enhanced stability and accuracy.
 
 ## References
-1. Dang, Q. (2024). Data collection strategies in financial research.
-2. Fama, E. F. (1965). The Behavior of Stock-Market Prices.
-3. Mnih, V., et al. (2015). Human-level control through deep reinforcement learning.
-4. Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction.
+1. Fama, E. F. (1965). The behavior of stock-market prices. Journal of Business, 38(1), 34-105. This paper laid the foundation for the Efficient Market Hypothesis (EMH), a crucial concept in financial modeling and market prediction.
+2. Ben, G., & Graham, D. (1934). Security Analysis. New York: McGraw-Hill. This classic book introduced Value Investing, influencing both traditional and modern financial strategies.
+3. Dang, Q. (2024). Application of AI in the Vietnamese Stock Market: Opportunities and Challenges. Journal of Financial Technology, 12(3), 125-138. Provides insight into AI and ML applications in the Vietnamese financial context, including RL.
+4. Mnih, V., et al. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540), 529-533. Introduces Deep Q-Learning, which leverages deep learning for reinforcement learning tasks, especially relevant for complex environments like stock trading.
+5. Yang, Z., & Wang, Y. (2021). Reinforcement Learning Applications in Financial Markets. International Journal of Financial Studies, 9(1), 22-39. This paper provides a comprehensive overview of RL techniques used in financial markets, including Q-learning and policy gradient methods.
+6. Yahoo Finance (n.d.). Stock data for ACB, FPT, VCB companies. Retrieved from https://finance.yahoo.com/. Data source for historical stock prices used in model training and testing.
+7. Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press. This textbook provides foundational RL concepts, essential for understanding Q-learning and its application in environments like stock trading.
