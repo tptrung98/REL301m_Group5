@@ -29,7 +29,6 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 - **Hyperparameters**:
   - Discount factor (`gamma`): 0.95
   - Exploration rate (`epsilon`): Starts at 1.0
-  - Learning rate: 0.001
   - Batch size: 32
   - Episodes: 1000
 
@@ -40,10 +39,10 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 4. **Baseline Metrics**: Comparison metrics including a passive "buy and hold" strategy.
 
 ## Results
-- **Training on ACB**: Achieved accuracy of 99.1%-100% in training.
+- **Training on FPT**: Achieved accuracy of 100% in training.
 ![Train result](results/train.png)
 ![Profit train](results/profit_train.png)
-- **Testing on ACB**: Generated a total profit of $22,601.51 with a win rate of 80%, outperforming the baseline profit.
+- **Testing on FPT**: Generated a total profit of $26337.21 with a win rate of 52.83%, outperforming the baseline profit.
 ![Test result](results/test.png)
 ![Profit test](results/profit_test.png)
 
