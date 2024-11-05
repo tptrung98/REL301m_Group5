@@ -42,7 +42,7 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 - **Training on FPT**: Achieved accuracy of 100% in training.
 ![Train result](results/train.png)
 ![Profit train](results/profit_train.png)
-- **Testing on FPT**: Generated a total profit of $26337.21 with a win rate of 52.83%, outperforming the baseline profit.
+- **Testing on FPT**: Generated a total profit of $26337.21 with a win rate of 52.83%.
 ![Test result](results/test.png)
 ![Profit test](results/profit_test.png)
 
