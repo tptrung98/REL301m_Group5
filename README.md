@@ -41,8 +41,11 @@ The dataset comprises stock price data (Date, Open, Low, High, Volume) for three
 
 ## Results
 - **Training on ACB**: Achieved accuracy of 99.1%-100% in training.
+![Train result](results/train.png)
+![Profit train](results/profit_train.png)
 - **Testing on ACB**: Generated a total profit of $22,601.51 with a win rate of 80%, outperforming the baseline profit.
 ![Test result](results/test.png)
+![Profit test](results/profit_test.png)
 
 ## How to Use
 - **Read file Code.ipynb**
